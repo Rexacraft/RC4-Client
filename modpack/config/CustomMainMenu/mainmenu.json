@@ -1,0 +1,198 @@
+{
+    "images":
+    {
+        "title":
+        {
+            "image" : "custommainmenu:textures/gui/minecraft.png",
+            "posX" : -137,
+            "posY" : 30,
+            "width" : 512,
+            "height" : 512,
+            "alignment" : "top_center"
+        },
+
+        "edition":
+        {
+            "image" : "custommainmenu:textures/gui/edition.png",
+            "posX" : -49,
+            "posY" : 67,
+            "width" : 128,
+            "height" : 16,
+            "alignment" : "top_center"
+        }
+    },
+
+    "buttons":
+    {
+        "multiplayer":
+        {
+            "text" : "Connect to Rexacraft",
+            "posX" : -100,
+            "posY" : 48,
+            "width" : 200,
+            "height" : 20,
+            "action" :
+            {
+                "type" : "connectToServer",
+                "ip" : "rexacraft.nodsoft.net"
+            },
+            "tooltip" : "Login as #username#"
+        },
+
+        "singleplayer":
+        {
+            "text" : "menu.singleplayer",
+            "posX" : -100,
+            "posY" : 108,
+            "width" : 98,
+            "height" : 20,
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+
+        "mods":
+        {
+            "text" : "fml.menu.mods",
+            "posX" : 2,
+            "posY" : 108,
+            "width" : 98,
+            "height" : 20,
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+
+        "options":
+        {
+            "text" : "menu.options",
+            "posX" : -100,
+            "posY" : 132,
+            "width" : 98,
+            "height" : 20,
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+
+        "quit":
+        {
+            "text" : "menu.quit",
+            "posX" : 2,
+            "posY" : 132,
+            "width" : 98,
+            "height" : 20,
+            "action" :
+            {
+                "type" : "quit"
+            }
+        },
+
+        "language":
+        {
+            "text" : "",
+            "posX" : -124,
+            "posY" : 132,
+            "width" : 20,
+            "height" : 20,
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        },
+
+        "refresh":
+        {
+            "text" : "",
+            "posX" : -124,
+            "posY" : 108,
+            "width" : 20,
+            "height" : 20,
+            "texture" : "custommainmenu:textures/gui/buttons.png",
+            "action" :
+            {
+                "type" : "refresh"
+            }
+        }
+    },
+
+    "labels":
+    {
+        "mojang":
+        {
+            "text" : "Copyright Mojang AB. Do not distribute!",
+            "posX" : -200,
+            "posY" : -15,
+            "color" : -1,
+            "alignment" : "bottom_right",
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "credits"
+            }
+        },
+
+        "rctitle":
+        {
+            "text" : "Rexacraft 4",
+            "posX" : 2,
+            "posY" : -55,
+            "color" : 16744272,
+            "alignment" : "bottom_left"
+        },
+        "rcversion":
+        {
+            "text" : "DEV_2",
+            "posX" : 2,
+            "posY" : -45,
+            "color" : 16776960,
+            "alignment" : "bottom_left"
+        },
+
+        "gamedetails":
+        {
+            "text" : "MC #mcversion# \n#modsloaded# Mods Loaded \n#modsactive# Mods Active",
+            "posX" : 2,
+            "posY" : -30,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        },
+
+        "fml":
+        {
+            "text" : "",
+            "posX" : -80,
+            "posY" : -50,
+            "color" : -1,
+            "alignment" : "bottom_center"
+        }
+    },
+
+    "other":
+    {
+        "splash-text":
+        {
+            "posX" : 90,
+            "posY" : 70,
+            "color" : -256,
+            "alignment" : "top_center",
+            "texts" : "file:minecraft:texts/splashes.txt"
+        },
+
+        "panorama":
+        {
+            "images" : "minecraft:textures/gui/title/background/panorama_%c.png",
+            "animate" : true,
+            "animationSpeed" : 1,
+            "blur" : true,
+            "gradient" : true
+        }
+    }
+}
