@@ -34,7 +34,7 @@
             "action" :
             {
                 "type" : "connectToServer",
-                "ip" : "rexacraft.nodsoft.net"
+                "ip" : "rexacraft.net"
             },
             "tooltip" : "Login as #username#"
         },
